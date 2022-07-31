@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body {
+    margin: 0;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+
+}
+
+
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+h1 span {
+    color: rgb(2, 2, 192);
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 50%;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    font-style: italic;
+}
+
+button {
+
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    font-style: italic;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+#button:hover {
+    color: white;
+
+}
+
+#output {
+    padding: 1rem;
+    font-size: large;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 15vh;
+    max-height: 20vh;
+    overflow: auto;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+footer div {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer p {
+
+    max-width: var(--width-break);
+    margin: auto;
+}
